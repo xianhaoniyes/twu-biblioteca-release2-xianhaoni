@@ -3,19 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c95d3032-3047-4789-a70b-3135727cbe61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/Contoller/CustomerService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biblioteca/Contoller/CustomerService$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/Contoller/CustomerService$STATUS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biblioteca/Contoller/CustomerService$STATUS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/Contoller/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biblioteca/Contoller/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/Contoller/SystemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biblioteca/Contoller/SystemController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/Repository/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biblioteca/Repository/CustomerRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/Repository/RecordRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biblioteca/Repository/RecordRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Contoller/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contoller/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Contoller/SystemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contoller/SystemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/LibrarianRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/LibrarianRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/MovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/MovieRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/RecordRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/RecordRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Repository/RecordRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Repository/RecordRepositoryTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RecordRepositoryTests">
+  <component name="RunManager" selected="JUnit.MovieTests">
     <configuration name="BookRepositoryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="biblioteca" />
       <extension name="coverage">
@@ -78,22 +65,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="biblioteca" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.BookTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerRepositoryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LibrarianRepositoryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="biblioteca" />
       <extension name="coverage">
         <pattern>
@@ -102,13 +74,28 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Repository" />
-      <option name="MAIN_CLASS_NAME" value="Repository.CustomerRepositoryTests" />
+      <option name="MAIN_CLASS_NAME" value="Repository.LibrarianRepositoryTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieRepositoryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="biblioteca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Repository" />
+      <option name="MAIN_CLASS_NAME" value="Repository.MovieRepositoryTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="biblioteca" />
       <extension name="coverage">
         <pattern>
@@ -117,7 +104,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.CustomerTests" />
+      <option name="MAIN_CLASS_NAME" value="data.MovieTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MovieTests" />
+        <item itemvalue="JUnit.LibrarianRepositoryTests" />
+        <item itemvalue="JUnit.MovieRepositoryTests" />
         <item itemvalue="JUnit.RecordRepositoryTests" />
         <item itemvalue="JUnit.BookRepositoryTests" />
-        <item itemvalue="JUnit.CustomerRepositoryTests" />
-        <item itemvalue="JUnit.CustomerTests" />
-        <item itemvalue="JUnit.BookTests" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +163,7 @@
       <workItem from="1581345949935" duration="1054000" />
       <workItem from="1581350224699" duration="372000" />
       <workItem from="1581383004923" duration="10250000" />
-      <workItem from="1581409002785" duration="2668000" />
+      <workItem from="1581409002785" duration="4605000" />
     </task>
     <servers />
   </component>
