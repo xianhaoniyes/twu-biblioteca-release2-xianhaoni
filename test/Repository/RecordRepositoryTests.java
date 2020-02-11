@@ -29,7 +29,7 @@ public class RecordRepositoryTests {
     @Test
     public void shouldAddRecord(){
         recordRepository.addRecord("1231-4567","Family Teacher");
-        HashMap<String, ArrayList<String>> rs = recordRepository.Records();
+        HashMap<String, ArrayList<String>> rs = recordRepository.records();
         assertTrue("add record failed",rs.get("1231-4567").contains("Family Teacher"));
     }
 
@@ -37,7 +37,7 @@ public class RecordRepositoryTests {
     public void shouldDeleteRecord(){
         recordRepository.addRecord("1231-4567","Family Teacher");
         recordRepository.deleteRecord("1231-4567","Family Teacher");
-        HashMap<String, ArrayList<String>> rs = recordRepository.Records();
+        HashMap<String, ArrayList<String>> rs = recordRepository.records();
         assertFalse("delete record failed",rs.get("1231-4567").contains("Family Teacher"));
     }
 
